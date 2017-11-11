@@ -4,7 +4,7 @@ sudo apt-get install -y puppet git
 
 git clone https://github.com/marrkus/Puppetslaves.git
 
-sudo cp -r puppetslaver /etc/puppet/modules/
+sudo cp -r puppetslaves /etc/puppet/modules/
 
 cd /etc/puppet/
 
