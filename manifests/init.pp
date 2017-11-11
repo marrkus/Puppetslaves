@@ -1,11 +1,11 @@
-class puppetslaves {
+class Puppetslaves {
 	
 	package {'puppet':
 		ensure => installed,
 	}
 	
 	file {'/etc/default/puppet':
-		content => template ("puppetslaves/puppet"),
+		content => template ("Puppetslaves/puppet"),
 		require => Package ['puppet'],
 		notify => Service ['puppet'],
 	}
